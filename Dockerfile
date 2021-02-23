@@ -1,4 +1,4 @@
-ARG BASEIMAGE_TAG='3.5.0'
+ARG BASEIMAGE_TAG='latest'
 FROM sphinxdoc/sphinx:${BASEIMAGE_TAG}
 
 COPY requirements.txt /requirements.txt
