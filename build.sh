@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # List Sphinx versions here
-versions=("3.5.2" "3.5.3" "3.5.4")
+versions=("3.5.2" "3.5.3" "3.5.4" "4.0.0" "4.0.1" "4.0.2")
 
 for i in "${versions[@]}"; do
   DOCKER_BUILDKIT=1 \
