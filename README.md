@@ -27,5 +27,5 @@ Run `build.sh` to build the image or:
 
 ```bash
 DOCKER_BUILDKIT=1 \
-docker build -t bwibo/sphinx-rtd --build-arg BASEIMAGE_TAG=3.5.2 .
+docker build -t bwibo/sphinx-rtd --build-arg BASEIMAGE_TAG=4.1.1 .
 ```
