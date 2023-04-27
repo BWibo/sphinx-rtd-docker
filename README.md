@@ -5,6 +5,8 @@
 * Sphinx ReadTheDocs Theme: [`sphinx_rtd_theme`](https://github.com/readthedocs/sphinx_rtd_theme)
 * Copy burron [`sphinx_copybutton`](https://github.com/executablebooks/sphinx-copybutton)
 * Sphinx emojies [`sphinxemoji`](https://github.com/sphinx-contrib/emojicodes)
+* Sphinx Fontwaesome [`sphinx_fontawesome`](https://pypi.org/project/sphinx_fontawesome/)
+* Sphinx Toolbox [`sphinx-toolbox`]([sphinx-toolbox](https://pypi.org/project/sphinx-toolbox))
 
 The image is available on DockerHub: https://hub.docker.com/repository/docker/bwibo/sphinx-rtd
 
@@ -26,6 +28,5 @@ docker run --rm \
 Run `build.sh` to build the image or:
 
 ```bash
-DOCKER_BUILDKIT=1 \
-docker build -t bwibo/sphinx-rtd --build-arg BASEIMAGE_TAG=4.1.1 .
+docker build -t bwibo/sphinx-rtd --build-arg SPHINX_VERSION=6.2.1 .
 ```
